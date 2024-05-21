@@ -1,4 +1,4 @@
-// based of office-crypto 0.1.0 (https://github.com/udbhav1/office-crypto) | MIT License | github.com/jgthms/bulma
+// this file is based on office-crypto 0.1.0 (https://github.com/udbhav1/office-crypto) | MIT License | github.com/jgthms/bulma
 
 use crate::errors::DecryptError::{self, *};
 
