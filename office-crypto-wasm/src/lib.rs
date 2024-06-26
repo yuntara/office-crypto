@@ -1,3 +1,5 @@
+mod utils;
+
 use wasm_bindgen::{prelude::*, JsValue};
 
 #[wasm_bindgen]
