@@ -1,0 +1,17 @@
+{
+  "name": "office-crypto-wasm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/node/index.js",
+  "browser": "dist/web/index.js",
+  "scripts": {
+    "wasm-pack:web": "wasm-pack build --release --out-dir dist/web/pkg",
+    "wasm-pack": "run-s wasm-pack:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "KentaKudo <yd37574@gmail.com>",
+  "devDependencies": {
+    "npm-run-all2": "^6.2.0"
+  }
+}
