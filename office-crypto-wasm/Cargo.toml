@@ -1,0 +1,8 @@
+[package]
+name = "office-crypto-wasm"
+version = "0.1.0"
+authors = ["Kenta Kudo <yd37574@gmail.com>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
