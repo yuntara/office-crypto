@@ -2,6 +2,7 @@
   "name": "office-crypto-wasm",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
   "main": "dist/node/index.js",
   "browser": "dist/web/index.js",
   "scripts": {
@@ -20,5 +21,7 @@
     "@types/node": "^20.14.9",
     "npm-run-all2": "^6.2.0",
     "typescript": "^5.5.2"
-  }
+  },
+  "module": "dist/web/index.js",
+  "types": "dist/web/index.d.ts"
 }
