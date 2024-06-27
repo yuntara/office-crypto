@@ -10,7 +10,7 @@ mod test {
         let docx = include_bytes!("test.docx").to_vec();
         let expected = include_bytes!("test_decrypted.docx").to_vec();
 
-        let bytes = crate::crypto::decrypt_from_bytes(docx, "test").unwrap();
+        let bytes = crate::crypto::decrypt_from_bytes(&docx, "test").unwrap();
 
         assert_eq!(bytes, expected);
     }
