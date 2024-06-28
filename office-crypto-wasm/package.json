@@ -22,6 +22,10 @@
     "npm-run-all2": "^6.2.0",
     "typescript": "^5.5.2"
   },
+  "files": [
+    "dist",
+    "dist/web/pkg"
+  ],
   "module": "dist/web/index.js",
   "types": "dist/web/index.d.ts"
 }
